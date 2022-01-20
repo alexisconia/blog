@@ -1,0 +1,50 @@
+baseURL: 'https://alexisconia.com'
+languageCode: 'en-us'
+title: 'Alexis CONIA'
+theme: 'PaperMod'
+defaultContentLanguage: en
+
+languages:
+  en:
+    baseURL: https://example.com
+    languageName: English
+    weight: 2
+  fr:
+    baseURL: https://example.fr
+    languageName: Français
+    weight: 1
+
+
+params:
+  env: production
+  title: 'Alexis CONIA'
+  description: 'Blog about Microsoft 365, Teams and videoconferencing'
+  author: Me
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+  socialIcons:
+  - name: twitter
+    url: "https://twitter.com/alexis_conia"
+  - name: stackoverflow
+    url: "https://stackoverflow.com"
+  - name: github
+    url: "https://github.com/"
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
