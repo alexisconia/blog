@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://alexisconia.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Alexis CONIA'
+theme = 'PaperMod'
