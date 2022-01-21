@@ -6,13 +6,11 @@ defaultContentLanguage: en
 
 languages:
   en:
-    baseURL: https://example.com
     languageName: English
-    weight: 2
-  fr:
-    baseURL: https://example.fr
-    languageName: Français
     weight: 1
+  fr:
+    languageName: Français
+    weight: 2
 
 
 params:
