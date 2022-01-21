@@ -1,9 +1,9 @@
 ---
 title: C'est un article pour test
-slug: this-is-an-article-for-testing
+slug: cest-un-article-pour-test
 description: Discover how to write a new article
 date: '2022-01-20T17:04:34.422Z'
-lastmod: '2022-01-20T17:50:29.802Z'
+lastmod: '2022-01-21T08:28:33.566Z'
 draft: false
 ShowReadingTime: true
 tags:
