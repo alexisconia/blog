@@ -3,9 +3,14 @@ title: C'est un article pour test
 slug: cest-un-article-pour-test
 description: Discover how to write a new article
 date: '2022-01-20T17:04:34.422Z'
-lastmod: '2022-01-21T08:28:33.566Z'
+lastmod: '2022-01-27T08:45:19.978Z'
 draft: false
 ShowReadingTime: true
+cover:
+    image: profile.png
+    alt: <alt text>
+    caption: <text>
+    relative: false
 tags:
     - Microsoft Teams
     - WebRTC

@@ -7,5 +7,6 @@
       "title": "content",
       "path": "c:/Dev/blog/content"
     }
-  ]
+  ],
+  "frontMatter.content.autoUpdateDate": true
 }
