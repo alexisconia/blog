@@ -3,8 +3,8 @@ title: This is an article for testing
 slug: this-is-an-article-for-testing
 description: Discover how to write a new article
 date: '2022-01-20T17:04:34.422Z'
-lastmod: '2022-01-27T08:45:22.891Z'
-draft: false
+lastmod: '2022-02-22T18:15:03.158Z'
+draft: true
 ShowReadingTime: true
 cover:
     image: profile.png
