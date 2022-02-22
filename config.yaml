@@ -3,6 +3,7 @@ languageCode: 'en-us'
 title: 'Alexis CONIA'
 theme: 'PaperMod'
 defaultContentLanguage: en
+enableRobotsTXT: true
 
 languages:
   en:
@@ -24,12 +25,15 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: truehugo s
+
+  cover:
+    responsiveImages: true
 
   profileMode:
-    enabled: true
-    title: "Hi there \U0001F44B" # optional default will be site title
-    subtitle: "This is subtitle"
+    enabled: false
+    title: "Hi there, \U0001F44B" # optional default will be site title
+    subtitle: "I'm software engineer working to build collaboration products based on Microsoft 365 platform and I'm also member of the Microsoft MVP community."
     imageUrl: "/profile.png" # optional
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 200 # custom size
@@ -37,14 +41,14 @@ params:
 
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: "I'm software engineer working to build collaboration products based on Microsoft 365 platform and I'm also member of the Microsoft MVP community."
   socialIcons:
   - name: twitter
     url: "https://twitter.com/alexis_conia"
-  - name: stackoverflow
-    url: "https://stackoverflow.com"
   - name: github
     url: "https://github.com/alexisconia"
+  - name: buymeacoffee
+    url: "https://www.buymeacoffee.com/alexisconia"
 
 menu:
   main:
@@ -52,11 +56,7 @@ menu:
       name: Blog
       url: /blog/
       weight: 10
-    - identifier: categories
-      name: categories
+    - identifier: Categories
+      name: Categories
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
