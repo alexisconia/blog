@@ -1,10 +1,10 @@
 ---
-title: '{{name}}'
-slug: '/{{kebabCase name}}/'
+title: Teams Nations 2022
+slug: /{{kebabCase name}}/
 description: null
 author: null
-date: '2022-01-27T12:16:44.244Z'
-lastmod: '2022-01-27T12:17:31.929Z'
+date: 2022-01-27T12:16:44.244Z
+lastmod: 2022-03-18T09:44:34.719Z
 draft: true
 tags: []
 categories: []
