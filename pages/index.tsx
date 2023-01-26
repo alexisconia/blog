@@ -26,7 +26,6 @@ export interface BlogPostMetadata {
 }
 
 const Home: NextPage<BlogProps> = ({ posts }) => {
-  console.log(posts);
   return (
     <div>
       {posts.map((post: BlogPost, index: any) => (

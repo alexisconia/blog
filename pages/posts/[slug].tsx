@@ -45,10 +45,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const { data: frontMatter, content } = matter(markdownWithMeta);
   const mdxSource = await serialize(content);
-
+  const frontMatterWithDate = JSON.parse(JSON.stringify(frontMatter));
   return {
     props: {
-      frontMatter,
+      frontMatter: frontMatterWithDate,
       slug,
       mdxSource,
     },
