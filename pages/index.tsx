@@ -26,6 +26,7 @@ export interface BlogPostMetadata {
 }
 
 const Home: NextPage<BlogProps> = ({ posts }) => {
+  console.log(posts);
   return (
     <div>
       {posts.map((post: BlogPost, index: any) => (
@@ -68,8 +69,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
       "utf-8"
     );
     const { data: frontMatter } = matter(markdownWithMeta);
+    const frontMatterWithDate = JSON.parse(JSON.stringify(frontMatter));
     return {
-      frontMatter,
+      frontMatter: frontMatterWithDate,
       slug: filename.split(".")[0],
     };
   });
