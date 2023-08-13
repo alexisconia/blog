@@ -30,23 +30,20 @@ const Home: NextPage<BlogProps> = ({ posts }) => {
     <div>
       {posts.map((post: BlogPost, index: any) => (
         <Link href={"/posts/" + post.slug} passHref key={index}>
-          <div className="card mb-3 pointer" style={{ maxWidth: "540px" }}>
-            <div className="row g-0">
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">{post.frontMatter.title}</h5>
-                  <p className="card-text">{post.frontMatter.description}</p>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      {post.frontMatter.date}
-                    </small>
+          <div style={{ maxWidth: "540px" }}>
+            <div>
+              <div>
+                <div>
+                  <h5>{post.frontMatter.title}</h5>
+                  <p>{post.frontMatter.description}</p>
+                  <p>
+                    <small>{post.frontMatter.date}</small>
                   </p>
                 </div>
               </div>
-              <div className="col-md-4 m-auto">
+              <div>
                 <Image
                   src={post.frontMatter.thumbnailUrl}
-                  className="img-fluid mt-1 rounded-start"
                   alt="thumbnail"
                   width={500}
                   height={400}
